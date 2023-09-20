@@ -1,0 +1,47 @@
+/* fonte */
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* body */
+
+body{
+    margin: 0;
+}
+
+/* header */
+
+.header{
+    border-bottom: 3px solid aqua;
+    background-color: black;
+    margin: 0px 0px 3px 0px;
+    
+}
+
+.header .container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container ul{
+    width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    color: white;
+}
+
+.header a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header h1{
+    color: aqua;
+}
+
+
